@@ -1,0 +1,16 @@
+.contents {
+    justify-content: space-around;
+}
+
+.Play1Img {
+    border-radius: 5%;
+    position: absolute;
+    border:double 10px #ccc;
+}
+
+.Play2Img {
+    border-radius: 5%;
+    position: relative;
+    border-collapse: separate;
+    border:double 10px #ccc;
+}
