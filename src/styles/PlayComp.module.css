@@ -1,11 +1,17 @@
 .contents {
-    justify-content: space-around;
+    padding: 5vw;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
 }
 
 .Play1Img {
     border-radius: 5%;
     position: absolute;
     border:double 10px #ccc;
+    transform: rotate(-10deg);
 }
 
 .Play2Img {
@@ -13,4 +19,9 @@
     position: relative;
     border-collapse: separate;
     border:double 10px #ccc;
+    transform: rotate(10deg);
+}
+
+.Title {
+    margin-left: 8vw;
 }

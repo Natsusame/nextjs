@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 import backgroundImage from '../../public/mie-Summit_Park_in_Mt.Gozaisho-s.jpg';
 import Logo from '../../public/RainerLogo.png';
 import styles from '../styles/Title.module.css';
