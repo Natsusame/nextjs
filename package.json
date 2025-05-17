@@ -15,6 +15,7 @@
     "@mui/material": "^6.3.1",
     "@mui/styled-engine-sc": "^6.3.1",
     "@svgr/webpack": "^8.1.0",
+    "@vercel/speed-insights": "^1.1.0",
     "antd": "^5.23.1",
     "next": "15.1.4",
     "rc-util": "^5.44.3",

@@ -11,7 +11,6 @@ export default function Footer() {
                 alt="Logo" 
                 style={{ width: '20vw', height: 'auto' }}
             />
-            
         </footer>
     );
 }

@@ -1,17 +1,17 @@
 import * as React from 'react';
 import Image from 'next/image'
 import Link from "next/link";
-import AppBar from '@mui/material/AppBar';
+import ButtonAppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import styles from "../../styles/AppBar.module.css";
 import logo from "../../../public/Logo.png"
 
-export default function ButtonAppBar() {
+export default function AppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" sx={{ backdropFilter: 'blur(10px)', backgroundColor: 'rgba(0, 0, 0, 0.5)', height: '65px' }}>
+      <ButtonAppBar position="fixed" sx={{ backdropFilter: 'blur(10px)', backgroundColor: 'rgba(0, 0, 0, 0.5)', height: '65px' }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           <div className={styles.header}>
@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
           </div>
           </Typography>
         </Toolbar>
-      </AppBar>
+      </ButtonAppBar>
     </Box>
   );
 }

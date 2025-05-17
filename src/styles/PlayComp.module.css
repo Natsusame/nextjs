@@ -23,5 +23,7 @@
 }
 
 .Title {
-    margin-left: 8vw;
+    position: absolute;
+    margin-left: 35vw;
+    margin-bottom: 50vw;
 }
